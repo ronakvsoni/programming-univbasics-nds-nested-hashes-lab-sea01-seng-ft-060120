@@ -40,8 +40,10 @@ def aoh_lookup(aoh, row, key)
 end
 p aoh_lookup(array,nil,nil)
 
-def aoh_update(aoh, row, key, new_value)
+def aoh_update(array, row, key, new_value)
   array[3][:occupation]="Artist"
+ p array
+  
   
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
